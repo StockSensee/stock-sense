@@ -1,38 +1,30 @@
+# 📊 StockSense
 
-# StockSense 
+**Sistema de gestión de inventarios y ventas** diseñado para empresas que buscan optimizar el control de productos, las ventas y la llegada de nuevos ítems en tiempo real.
 
-Sistema de gestión eficiente que permita a la empresa controlar las ventas,
-supervisar el inventario y gestionar las llegadas de nuevos productos de manera efectiva. 
-supervisar el inventario y gestionar las llegadas de nuevos productos de manera efectiva. 🥡
+---
 
-## Comenzando 
-```
-git remote add https://github.com/StockSensee/stock-sense.git
-git pull
-```
+## 🚀 Tecnologías
+- [React](https://react.dev/) + [Vite](https://vitejs.dev/)
+- [Supabase](https://supabase.com/) (Backend as a Service)
+- [Zustand](https://github.com/pmndrs/zustand) para gestión de estado
+- [TanStack Query & Table](https://tanstack.com/) para consultas y tablas dinámicas
+- [Styled Components](https://styled-components.com/) + [SweetAlert2](https://sweetalert2.github.io/)
 
-## Prerrequisitos
-```
+---
+
+## ✨ Funcionalidades
+- Registro y control de productos
+- Gestión de inventarios en tiempo real
+- Procesamiento y control de ventas
+- Reportes y visualización de datos
+- Alertas y notificaciones con SweetAlert2
+
+---
+
+## ⚙️ Instalación
+```bash
+git clone https://github.com/tuusuario/stock-sense.git
+cd stock-sense
 yarn install
 yarn dev
-```
-
-## Instalacion dependencias
-```
-yarn add react-icons
-yarn add styled-components
-yarn add react-hook-form
-yarn add react-router-dom
-yarn add sweetalert2
-yarn add zustand 
-yarn add @tanstack/react-query
-yarn add @tanstack/react-table
-yarn add @tanstack/react-query-devtools
-yarn add @supabase/supabase-js
-yarn add react-spinners
-yarn add react-lottie
-yarn add react-color
-yarn add @react-pdf/renderer
-yarn add serve
-```
-
